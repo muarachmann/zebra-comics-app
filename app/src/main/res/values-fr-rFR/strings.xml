@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zebra Comics</string>
+    <string name="action_rate_us">Évaluez nous</string>
+    <string name="about_developer">À propos du développeur</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="ZEBRA ZONE">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="Zebra Profile" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Comics" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="Zebratars" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_touch_app_black_24dp"
+            android:title="Zebra Merchandise" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_videocam_black_24dp"
+            android:title="Series and Cartoons" />
+
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/ic_notifications_none_black_24dp"
+                android:title="Notifications" />
+        </menu>
+        </item>
+    </group>
+
+
+    <item android:title="COMMUNICATION">
+        <menu>
+            <item
+                android:id="@+id/nav_news_feed"
+                android:icon="@drawable/ic_cast_black_24dp"
+                android:title="News Feed" />
+            <item
+                android:id="@+id/nav_other_comics"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Other African Comics" />
+            <item
+                android:id="@+id/nav_subscribe"
+                android:icon="@drawable/ic_subscriptions_black_24dp"
+                android:title="Subscribe To our News Letter" />
+        </menu>
+    </item>
+
+    <item android:title="OTHERS">
+        <menu>
+            <item
+                android:id="@+id/nav_language"
+                android:icon="@drawable/ic_translate_black_24dp"
+                android:title="Language" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_faqs"
+                android:icon="@drawable/ic_account_box_black_24dp"
+                android:title="FAQs" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_about_dev"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/about_developer" />
+        </menu>
+    </item>
+
+</menu>

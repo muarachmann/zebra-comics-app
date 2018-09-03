@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardView.Light"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/padd_10"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@android:color/white"
+        android:padding="1dp"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="106dp"
+            android:layout_height="149dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/b1" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/thumbnail"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-condensed"
+            android:maxLines="1"
+            android:padding="@dimen/padd_10"
+            android:text="Hello World"
+            android:textColor="#222"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
+            android:layout_below="@id/name"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/thumbnail"
+            android:layout_alignParentRight="true"
+            android:textAlignment="textEnd"
+            android:padding="@dimen/padd_10"
+            android:text="AN NINA\nE.N. EJOB\nM. ISPAHANI"
+            android:textColor="#222"
+            android:textSize="12dp"
+            android:gravity="end" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

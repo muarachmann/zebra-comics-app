@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/zebratar_names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30sp"
+        android:padding="7dp"
+        android:textFontWeight="10dp"
+        android:text="" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/zebratar_images"
+        android:paddingTop="3dp"
+        android:contentDescription="TODO" />
+</LinearLayout>

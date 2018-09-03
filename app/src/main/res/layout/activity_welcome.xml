@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b4"
+    android:layout_weight="1"
+    android:visibility="visible"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/zebra_welcome_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/welcome_text"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/toHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:background="#A0D101"
+        android:onClick="gotoHome"
+        android:text="@string/home"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
